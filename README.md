@@ -9,7 +9,7 @@
 ## Install with pip
 
 ```bash
-pip install git+https://[gitリポジトリのURL]
+pip install git+https://https://github.com/FukumotoIkuma/atcoder-tools_login
 ```
 
 ## How to use
