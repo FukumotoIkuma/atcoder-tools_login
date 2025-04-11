@@ -27,4 +27,4 @@ atl = "atl.__main__:main"
 packages = ["atl", "atl.cookie"]
 
 [tool.setuptools.package-data]
-"atcodertoolslogin" = ["*.txt", "*.rst"]
+"atl.cookie" = ["*.txt", "*.rst"]
