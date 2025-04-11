@@ -1,0 +1,8 @@
+#LWP-Cookies-2.0
+# This file includes code originally from the online-judge-tools project.
+#   - Kimiyuki Onaka (2017–2020), under the MIT License
+#
+# Modified by Ikuma Fukumoto (2025)
+
+Set-Cookie3: REVEL_FLASH=""; path="/"; domain="atcoder.jp"; path_spec; secure; discard; HttpOnly=None; version=0
+Set-Cookie3: REVEL_SESSION=""; path="/"; domain="atcoder.jp"; path_spec; secure; expires="2025-10-06 10:09:30Z"; HttpOnly=None; version=0

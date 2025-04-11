@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atcoder-tools-login"
+version = "1.0.0"
+authors = [
+    { name="Ikuma Fukumoto" }
+]
+description = "Login helper for atcoder-tools"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "requests",
+    "atcoder-tools>=2.14.0",
+    "colorama",
+    "browsercookie==0.8.1",
+    "markupsafe==2.0.1", # need for jinja2
+]
+license = { text = "MIT" } 
+
+[project.scripts]
+atl = "atl.__main__:main"
+
+[tool.setuptools]
+packages = ["atl"]
+
+[tool.setuptools.package-data]
+"atcodertoolslogin" = ["*.txt", "*.rst"]
