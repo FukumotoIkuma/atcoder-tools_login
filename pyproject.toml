@@ -18,13 +18,10 @@ dependencies = [
     "browsercookie==0.8.1",
     "markupsafe==2.0.1", # need for jinja2
 ]
-license = { text = "MIT" } 
+license = { text = "MIT" }
 
 [project.scripts]
 atl = "atl.__main__:main"
 
-[tool.setuptools]
-packages = ["atl", "atl.cookie"]
-
-[tool.setuptools.package-data]
-"atcodertoolslogin" = ["*.txt", "*.rst"]
+[tool.setuptools.packages.find]
+where = ["."]
